@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-kubernetes-config
+data:
+  # property-like keys; each key maps to a simple value
+  example_setting_1: "3"
+  example_setting_2: "hello"
+  #
+  # file-like keys
+  app.properties: |
+    example_setting_3=100
+    example_setting_4=hello
