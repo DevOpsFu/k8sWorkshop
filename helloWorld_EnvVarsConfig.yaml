@@ -23,8 +23,8 @@ spec:
                     configMapKeyRef:
                         name: hello-kubernetes-config
                         key: example_setting_1
-                - name: ENV_VAR_1
+                - name: ENV_VAR_2
                   valueFrom:
                     configMapKeyRef:
                         name: hello-kubernetes-config
-                        key: example_setting_1
+                        key: example_setting_2
